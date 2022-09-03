@@ -1,0 +1,477 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "requests",
+        "description": "requests",
+        "isExtraImport": true,
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "api_view",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_REPOSITORY_SEARCH_URL",
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "isExtraImport": true,
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DATE_FORMAT",
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "isExtraImport": true,
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "REPO_COUNT",
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "isExtraImport": true,
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "REPO_LIST",
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "isExtraImport": true,
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_days_ago",
+        "importPath": "trending_repos.utils",
+        "description": "trending_repos.utils",
+        "isExtraImport": true,
+        "detail": "trending_repos.utils",
+        "documentation": {}
+    },
+    {
+        "label": "parse_trending_repos",
+        "importPath": "trending_repos.utils",
+        "description": "trending_repos.utils",
+        "isExtraImport": true,
+        "detail": "trending_repos.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "top_trending_repos",
+        "importPath": "trending_repos.api.views",
+        "description": "trending_repos.api.views",
+        "isExtraImport": true,
+        "detail": "trending_repos.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "git_trending_repos.asgi",
+        "description": "git_trending_repos.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "git_trending_repos.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "REPO_LIST",
+        "kind": 5,
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "peekOfCode": "REPO_LIST = 'repo_list'\nDATE_FORMAT = r'%Y-%m-%d'\nREPO_COUNT = 'repos_count'\nBASE_REPOSITORY_SEARCH_URL = 'https://api.github.com/search/repositories'",
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "DATE_FORMAT",
+        "kind": 5,
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "peekOfCode": "DATE_FORMAT = r'%Y-%m-%d'\nREPO_COUNT = 'repos_count'\nBASE_REPOSITORY_SEARCH_URL = 'https://api.github.com/search/repositories'",
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "REPO_COUNT",
+        "kind": 5,
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "peekOfCode": "REPO_COUNT = 'repos_count'\nBASE_REPOSITORY_SEARCH_URL = 'https://api.github.com/search/repositories'",
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_REPOSITORY_SEARCH_URL",
+        "kind": 5,
+        "importPath": "git_trending_repos.constants",
+        "description": "git_trending_repos.constants",
+        "peekOfCode": "BASE_REPOSITORY_SEARCH_URL = 'https://api.github.com/search/repositories'",
+        "detail": "git_trending_repos.constants",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-)m+e5qmf5=+tj(s*h9cei@6f8l&#44f1&k40mbk85b(heypva5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-)m+e5qmf5=+tj(s*h9cei@6f8l&#44f1&k40mbk85b(heypva5'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'rest_framework',\n    'trending_repos.apps.TrendingReposConfig',\n]",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'git_trending_repos.urls'",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "ROOT_URLCONF = 'git_trending_repos.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'git_trending_repos.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "git_trending_repos.settings",
+        "description": "git_trending_repos.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "git_trending_repos.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "git_trending_repos.urls",
+        "description": "git_trending_repos.urls",
+        "peekOfCode": "urlpatterns = [\n    path('api/', include('trending_repos.urls'))\n]",
+        "detail": "git_trending_repos.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "git_trending_repos.wsgi",
+        "description": "git_trending_repos.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "git_trending_repos.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "top_trending_repos",
+        "kind": 2,
+        "importPath": "trending_repos.api.views",
+        "description": "trending_repos.api.views",
+        "peekOfCode": "def top_trending_repos(request) -> Response:\n    \"\"\" \n    RESTFul API endpoint for retrieving a dictionary of the top 100 github repositories based on the number of stars the repositories possess\n    \"\"\"\n    GITHUB_QUERY_URL = BASE_REPOSITORY_SEARCH_URL + (\n        F'?q=created:>{ calculate_days_ago() }'\n        '&sort=stars&order=desc&page=1&per_page=100'\n    )\n    response = requests.get(GITHUB_QUERY_URL)\n    if response.status_code == 200:",
+        "detail": "trending_repos.api.views",
+        "documentation": {}
+    },
+    {
+        "label": "TrendingReposConfig",
+        "kind": 6,
+        "importPath": "trending_repos.apps",
+        "description": "trending_repos.apps",
+        "peekOfCode": "class TrendingReposConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'trending_repos'",
+        "detail": "trending_repos.apps",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "trending_repos.urls",
+        "description": "trending_repos.urls",
+        "peekOfCode": "app_name = 'trending_repos'\nurlpatterns = [\n    path('trending_langs/', top_trending_repos, name='top-trending-repos'),\n]",
+        "detail": "trending_repos.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "trending_repos.urls",
+        "description": "trending_repos.urls",
+        "peekOfCode": "urlpatterns = [\n    path('trending_langs/', top_trending_repos, name='top-trending-repos'),\n]",
+        "detail": "trending_repos.urls",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_days_ago",
+        "kind": 2,
+        "importPath": "trending_repos.utils",
+        "description": "trending_repos.utils",
+        "peekOfCode": "def calculate_days_ago(days: int = 30) -> str:\n    \"\"\" \n    Calculate the difference in days between today and the given `days` arg\n    args:\n        * days - An integer representing the number of days before today\n    returns `datetime.datetime.strftime` of the date in `yyyy-mm-dd` format\n    \"\"\"\n    # TODO could do some validation here to ensure only a valid integer is passed\n    days_ago = (datetime.today() - timedelta(days))\n    return days_ago.strftime(DATE_FORMAT)",
+        "detail": "trending_repos.utils",
+        "documentation": {}
+    },
+    {
+        "label": "parse_trending_repos",
+        "kind": 2,
+        "importPath": "trending_repos.utils",
+        "description": "trending_repos.utils",
+        "peekOfCode": "def parse_trending_repos(response: Response) -> dict:\n    \"\"\" Parses the trending repositories from github's API response\"\"\"\n    trending_repos = response.json()['items']\n    parsed_trending_repos: dict = {}\n    for trending_repo in trending_repos:\n        lang_used = trending_repo['language']\n        repo_reference = parsed_trending_repos.setdefault(lang_used, {REPO_COUNT:0, REPO_LIST: []})\n        repo_reference[REPO_COUNT] += 1\n        repo_reference[REPO_LIST].append({'api_url': trending_repo['url'], 'web_url': trending_repo['html_url']})\n    return parsed_trending_repos",
+        "detail": "trending_repos.utils",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'git_trending_repos.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
