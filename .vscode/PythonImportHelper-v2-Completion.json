@@ -170,14 +170,6 @@
         "documentation": {}
     },
     {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -416,7 +408,7 @@
         "kind": 2,
         "importPath": "trending_repos.api.views",
         "description": "trending_repos.api.views",
-        "peekOfCode": "def top_trending_repos(request) -> Response:\n    \"\"\" \n    RESTFul API endpoint for retrieving a dictionary of the top 100 github repositories based on the number of stars the repositories possess\n    \"\"\"\n    GITHUB_QUERY_URL = BASE_REPOSITORY_SEARCH_URL + (\n        F'?q=created:>{ calculate_days_ago() }'\n        '&sort=stars&order=desc&page=1&per_page=100'\n    )\n    response = requests.get(GITHUB_QUERY_URL)\n    if response.status_code == 200:",
+        "peekOfCode": "def top_trending_repos(request) -> Response:\n    \"\"\" \n    RESTFul API endpoint for retrieving a dictionary of the top 100\n    github repositories based on the number of stars the repositories possess\n    \"\"\"\n    GITHUB_QUERY_URL = BASE_REPOSITORY_SEARCH_URL + (\n        F'?q=created:>{ calculate_days_ago() }'\n        '&sort=stars&order=desc&page=1&per_page=100'\n    )\n    response = requests.get(GITHUB_QUERY_URL)",
         "detail": "trending_repos.api.views",
         "documentation": {}
     },

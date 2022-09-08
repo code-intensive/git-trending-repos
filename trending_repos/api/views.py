@@ -10,7 +10,8 @@ from trending_repos.utils import calculate_days_ago, parse_trending_repos
 @api_view(['GET'])
 def top_trending_repos(request) -> Response:
     """ 
-    RESTFul API endpoint for retrieving a dictionary of the top 100 github repositories based on the number of stars the repositories possess
+    RESTFul API endpoint for retrieving a dictionary of the top 100
+    github repositories based on the number of stars the repositories possess
     """
 
     GITHUB_QUERY_URL = BASE_REPOSITORY_SEARCH_URL + (
